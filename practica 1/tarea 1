@@ -1,0 +1,38 @@
+def saludar(nombre):
+    return f"¡Hola te damos la bienvenida, {nombre}!"
+
+
+def calcular_salario(horas_trabajadas, pago_por_hora):
+    return horas_trabajadas * pago_por_hora
+
+
+empleado = int(input("¿Cuántos empleados vas a ingresar?: "))
+
+for i in range(empleado):
+    print(f"\nEmpleado #{i + 1}")
+    nombre = input("Ingrese su nombre: ")
+
+    bienvenida = saludar(nombre)
+    print(bienvenida)
+
+    horas_trabajadas = int(input("Ingrese las horas trabajadas: "))
+    pago_por_hora = float(input("Ingrese el pago por hora: "))
+
+    salario = calcular_salario(horas_trabajadas, pago_por_hora)
+    print(f"Horas trabajadas: {horas_trabajadas}")
+    print(f"Pago por hora: ${pago_por_hora:.2f}")
+    print("Su salario es: ", salario)
+
+    if horas_trabajadas >= 40:
+        print("Se le pagará tiempo extra")
+    else:
+        print("No se le pagará tiempo extra")
+
+#1. def saludar(...)
+#2. def calcular_salario(...)
+#3. input: cuántas veces (ej. empleados)
+#4. for i in range(...):
+    - #input: datos individuales
+    - #llamada a funciones con parámetros
+    - #print con f-string
+    - #comdicionales

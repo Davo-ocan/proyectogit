@@ -1,0 +1,26 @@
+html {
+  height: 100%; /* Necesario para que el body pueda ocupar toda la altura */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+body {
+  /* Opcional: para que el body no ocupe toda la pantalla */
+  width: 80%;
+  height: 80%;
+  /* o cualquier valor que desees */
+  text-align: center; /* Para centrar texto dentro del body */
+  
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  background-color: white;
+  color: black;
+  border: none;
+}

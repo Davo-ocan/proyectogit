@@ -1,0 +1,4 @@
+function miFuncion() {
+   alert("hola");
+}
+

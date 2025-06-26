@@ -1,0 +1,30 @@
+frutas = ["manzana", "banana", "naranja"]
+for fruta in frutas:
+    print("Me gusta la", fruta)
+
+
+# def se utiliza para dar funciones al codigo , agregandole parametros si quiero numericos le voy la orden
+def multiplicar(a, b):
+    return a * b
+
+
+resultado = multiplicar(3, 5)
+print("resultado", resultado)
+
+
+cola = input("cual es su usuario: ")
+
+
+def saludar(nombre):
+    print(f"¡Hola, {nombre}!")
+
+
+saludar("Lucas")
+
+
+def sumar(a, b):
+    return a + b
+
+
+resultado = sumar(3, 5)
+print("resultado", resultado)

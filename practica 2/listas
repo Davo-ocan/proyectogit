@@ -1,0 +1,30 @@
+amigos = ["mayte", "adela", "justin"]
+print(amigos[0])
+print(amigos[1])
+print(amigos[2])
+
+# for amigo in amigos:
+# print(f"Hola, {amigo} 👋")
+
+
+ami = ["lady", "dayana", "guillean"]
+ami.append("danas")
+ami.remove("lady")
+ami[1] = "lady"
+print(len(ami))
+print(ami)
+
+# amigos.remove("justin")
+# amigos[1] = "jose"
+# print(len(amigos))
+
+
+# print("mayte"[0])
+# print("adela"[1])
+# print("justin"[2])
+# ponerlos en comilla accede a las letras de la palabra
+
+# frutas.append("kiwi")       # Agrega un elemento al final
+# frutas.remove("banana")     # Elimina un elemento
+# frutas[1] = "pera"          # Reemplaza el valor en el índice 1
+# print(len(frutas))          # Muestra cuántos elementos hay

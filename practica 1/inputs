@@ -1,0 +1,29 @@
+# 5. Usar input, conversión de tipos, y comparación con limpieza
+
+nombre = input("¿Cuál es tu nombre?: ")
+edad = int(input("¿Cuántos años tienes?: "))
+altura = float(input("¿Cuánto mides en metros?: "))
+
+respuesta = input("¿Eres vegano? (si/no): ")
+respuesta = respuesta.lower().strip()
+
+if respuesta == "si":
+    vegano = True
+else:
+    vegano = False
+
+
+# Clasificar según edad
+if edad >= 18:
+    print("Eres mayor de edad")
+elif edad >= 13:
+    print("Eres adolescente")
+else:
+    print("Eres menor de edad")
+
+# Mostrar resumen
+print("\nResumen:")
+print("Nombre:", nombre)
+print("Edad:", edad)
+print("Altura:", altura)
+print("¿Es vegano?", vegano)

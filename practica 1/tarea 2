@@ -1,0 +1,32 @@
+def saludar(nombre):
+    return f"¡Hola te damos la bienvenida, {nombre}!"
+
+
+def calcular_promedio(nota1, nota2, nota3):
+    return (nota1 + nota2 + nota3) / 3
+
+
+estudiante = int(input("¿Cuántos estudiantes vas a ingresar?: "))
+
+for i in range(estudiante):
+    print(f"\nEstudiante #{i + 1}")
+    nombre = input("Ingrese su nombre: ")
+
+    bienvenido = saludar(nombre)
+    print(bienvenido)
+
+    nota1 = int(input("cual es tu primera nota?:"))
+    nota2 = int(input("cual es tu segunda nota?:"))
+    nota3 = int(input("cual es tu tercera nota?:"))
+
+    promedio = calcular_promedio(nota1, nota2, nota3)
+
+    print(f"tu promedio es {promedio}")
+
+    if promedio >= 70:
+        print("felicidades aprobaste")
+    elif promedio < 70:
+        print("desaprobaste")
+
+    else:
+        print("lastima")

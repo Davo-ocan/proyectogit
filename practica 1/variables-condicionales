@@ -1,0 +1,19 @@
+# 1. Variables
+nombre = "lucia"
+edad = 16
+altura = 1.62
+vegano = False
+datos = (nombre, edad, altura, vegano)
+# 2. Imprimir tupla for
+for x in datos:
+    print(x)
+
+
+# 4. Condicional para clasificar edad
+
+if edad >= 18:
+    print("Es mayor de edad")
+elif edad <= 13:
+    print("Es adolescente")
+else:
+    print("Es menor de edad")
